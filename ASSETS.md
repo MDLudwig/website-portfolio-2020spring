@@ -1,5 +1,6 @@
-Homepage Cathy
+- Homepage Cathy
   - https://commons.wikimedia.org/wiki/File:Cathedral_of_Learning_Pittsburgh_(8180352799).jpg
-Homepage Oakland
+- Homepage Oakland
   - https://commons.wikimedia.org/wiki/File:Oakland_(Pittsburgh)_from_the_air.jpg
-  
+- Homepage WPU
+  - https://en.wikipedia.org/wiki/File:Front_lawn,_William_Pitt_Union_(University_of_Pittsburgh).jpg
