@@ -4,3 +4,5 @@
   - https://commons.wikimedia.org/wiki/File:Oakland_(Pittsburgh)_from_the_air.jpg
 - Homepage WPU
   - https://en.wikipedia.org/wiki/File:Front_lawn,_William_Pitt_Union_(University_of_Pittsburgh).jpg
+- Cathy Clicker
+  - https://www.flickr.com/photos/aidanmorgan/4008909358/ 
