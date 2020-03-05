@@ -13,3 +13,7 @@ h1 {
   color: gold;
   text-align: center;
 }
+
+.carousel-inner img {
+  margin: auto;
+}
