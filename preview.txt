@@ -1,0 +1,17 @@
+So far, I dont really have too much done for my website. I currently have my landing page set up.
+Within my landing page, I have a navbar and an image carousel. I created both of these elements by using the Bootstrap framework.
+To have all of the fancy aspects of Bootstrap to work, I needed to include JQuery as well. The image carousel is pretty much just a 
+slide show that I have for the landing page. It has pictures of the Cathedral of Learning, William Pitt Union, and an aerial view of all
+of Oakland. I need to add some text that will serve as a greeting to the website. For the navbar, the only working link I have so far is 
+the one for my game that I've created for the website, Cathy Clicker. Clicking on the button will redirect you to the Cathy Clicker page.
+This page contains the same navbar as the landing page. Cathy Clicker is currently a fully functioning clicker game. I wrote a small 
+JavaScript function that updates the text of a div below the image of the Cathedral. I've done a small amount of CSS on my own. 
+For the header of the Cathy Clicker page, I added css to center the text, make the font color gold, and increase the font size. 
+I essentially did the same thing for the div that displays the score. For each of the images I found, I had to edit them in GIMP
+so that they wouldnt be huge and take up the whole screen when I put them into the website. Going forward, I still have to make the 
+pages for the bulk of the website, the explore page and the best spots page. I think the most time consuming part of this project 
+is going to be compiling all of these images together. I think I have a pretty good structure set up already, the navbar works really
+well and looks great. I plan to use carousels again in the coming steps of the project. I think it would be the best way to have a top 10
+places organized, and I can just set the transition to only happen on clicks and not automatically. I think for the general explore page,
+I'm going to have a list containing all of the buildings, and if you click on one of them it will bring up a modal with a carousel of 
+images of the building and a text description. I still have a lot left to do, but I think I have a good idea of how to do it. 
