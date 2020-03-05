@@ -7,6 +7,16 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		<script>
+			var points = 0
+			function increment(){
+				var scoreDiv = document.getElementById("score");
+				points += 1;
+				scoreDiv.innerHTML = "Score: <em>" + points;
+			}
+
+		</script>
 	</head>
 
 	<body>
@@ -37,15 +47,8 @@
 			<img src ="images/cathy_clicker.jpg" alt = "picture of cathy" onclick = "increment()">
 		</div>
 		<br><br>
-		<p align = "center">Score: {points}</p>
+		<div id = "score" align = "center"></div>
 
-		<script>
-			var points = 0
-			function increment(){
-				points += 1;
-			}
-
-		</script>
 	</body>
 
 
