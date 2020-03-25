@@ -38,6 +38,7 @@
     <br>
     <div align ="center">
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
+        data-image ="images/cathy_clicker.jpg"
         data-name ="Cathedral of Learning"
         data-description="The Cathedral of Learning is the pride and joy of the University of Pittsburgh. It is the tallest educational building in the western hemisphere at 535 feet tall. One of the best parts of the Cathedral of Learning is the Nationality Rooms that are scattered throughout the first 3 floors. Each one represents a different nation, and is decorated to fit their customs. The Cathedral serves as a hub for many of the operations of the University, as well as a nice study spot for many of the students.">
         Cathedral of Learning</button>
@@ -83,6 +84,7 @@
             </button>
           </div>
           <div class="modal-body">
+            <img class = "img" src ="" alt ="picture of building">
             <div class="description"></div>
           </div>
           <div class="modal-footer">
@@ -102,6 +104,7 @@
         var modal = $(this)
         modal.find('.modal-title').text(name)
         modal.find('.description').text(description)
+        modal.find('.img').attr('src').val(image)
       })
     </script>
 	</body>
