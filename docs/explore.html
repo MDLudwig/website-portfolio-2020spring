@@ -80,7 +80,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <p></p>
+            <div id="description"></div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -98,7 +98,7 @@
         // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
         var modal = $(this)
         modal.find('.modal-title').text(name)
-        modal.find('.modal-body p').text(description)
+        modal.find('.modal-body description').text(description)
       })
     </script>
 	</body>
