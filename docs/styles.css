@@ -7,6 +7,8 @@ h1 {
   color: gold;
   text-align: center;
   background-color: darkblue;
+  border: 5px solid black;
+  border-radius: 25px;
 }
 
 #score {
