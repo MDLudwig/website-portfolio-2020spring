@@ -41,3 +41,15 @@ h1 {
 .modal-body{
 	background-color: gold;
 }
+
+.modal-footer{
+	background-color: darkblue;
+}
+
+.modal-header{
+	background-color: darkblue;
+}
+
+.modal-title{
+	color: gold;
+}
