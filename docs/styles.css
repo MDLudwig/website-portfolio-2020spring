@@ -32,3 +32,8 @@ h1 {
 	color: gold;
 	background-color: darkblue;
 }
+
+.carousel-background{
+	height: 400px;
+	background-color: gold;
+}
