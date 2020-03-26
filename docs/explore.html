@@ -35,7 +35,7 @@
 	  		</div>
 		</nav>
     <h1>Explore</h1>
-    <div align ="center">Click on a location to learn more about it</div>
+    <div align ="center" class ="descriptor">Click on a location to learn more about it</div>
     <br>
     <div align ="center">
       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" 
@@ -132,14 +132,13 @@
 
     <script>
       $('#exampleModal').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget) // Button that triggered the modal
-        var description = button.data('description') // Extract info from data-* attributes
+        var button = $(event.relatedTarget) 
+        var description = button.data('description') 
         var name = button.data('name')
         var image1 = button.data('image1')
         var image2 = button.data('image2')
         var image3 = button.data('image3')
-        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
-        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        
         var modal = $(this)
         modal.find('.modal-title').text(name)
         modal.find('.description').text(description)
