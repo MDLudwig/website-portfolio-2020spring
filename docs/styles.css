@@ -6,6 +6,7 @@ h1 {
   font-size: 5em;
   color: gold;
   text-align: center;
+  background-color: blue;
 }
 
 #score {
@@ -20,4 +21,7 @@ h1 {
 
 .descriptor {
 	font-size: 2em;
+}
+.navbar-brand{
+	color: gold;
 }
