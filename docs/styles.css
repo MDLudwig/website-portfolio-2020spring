@@ -34,6 +34,10 @@ h1 {
 }
 
 .carousel-background{
-	height: 400px;
+	height: 280px;
+	background-color: gold;
+}
+
+.modal-body{
 	background-color: gold;
 }
