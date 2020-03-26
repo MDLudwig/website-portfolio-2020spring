@@ -17,3 +17,8 @@ h1 {
 .carousel-inner img {
   margin: auto;
 }
+
+.carousel {
+  width:640px;
+  height:360px;
+}
