@@ -2,7 +2,7 @@
   display: grid;
 }
 
-.body{
+body{
 	background-color: gold;
 }
 
@@ -13,7 +13,7 @@ h1 {
   background-color: darkblue;
   border: 5px solid black;
   border-radius: 25px;
-  padding: .5em;
+  padding: .25em;
 }
 
 #score {
@@ -28,8 +28,8 @@ h1 {
 
 .descriptor {
 	font-size: 2em;
-	margin-left: 25em;
-	margin-right: 25em;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 .navbar-brand{
 	color: gold;
