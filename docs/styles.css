@@ -69,7 +69,8 @@ h1 {
 }
 
 .bounding {
-	margin-right: 5em;
-	margin-left: 5em;
+	margin-right: 7em;
+	margin-left: 7em;
 	background-color: white;
+	height: 100%;
 }
