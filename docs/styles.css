@@ -77,6 +77,12 @@ h1 {
 
 }
 
-.carousel-caption{
+.caption1{
+  background: rgba(0, 0, 0, 0.1);
+}
+.caption2{
+  background: rgba(0, 0, 0, 0.1);
+}
+.caption3{
   background: rgba(0, 0, 0, 0.1);
 }
