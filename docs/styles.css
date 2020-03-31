@@ -12,8 +12,7 @@ h1 {
   text-align: center;
   background-color: darkblue;
   border: 5px solid black;
-  border-radius: 25px;
-  padding: .25em;
+  padding: .15em;
 }
 
 #score {
@@ -28,8 +27,8 @@ h1 {
 
 .descriptor {
 	font-size: 2em;
-	margin-left: 5em;
-	margin-right: 5em;
+	margin-left: 7em;
+	margin-right: 7em;
 }
 .navbar-brand{
 	color: gold;
@@ -67,4 +66,10 @@ h1 {
 
 .aria-label{
 	color: white;
+}
+
+.bounding {
+	margin-right: 5em;
+	margin-left: 5em;
+	background-color: gold;
 }
