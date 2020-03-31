@@ -2,6 +2,10 @@
   display: grid;
 }
 
+.body{
+	background-color: gold;
+}
+
 h1 {
   font-size: 5em;
   color: gold;
@@ -9,6 +13,7 @@ h1 {
   background-color: darkblue;
   border: 5px solid black;
   border-radius: 25px;
+  padding: .5em;
 }
 
 #score {
@@ -23,6 +28,8 @@ h1 {
 
 .descriptor {
 	font-size: 2em;
+	margin-left: 25em;
+	margin-right: 25em;
 }
 .navbar-brand{
 	color: gold;
